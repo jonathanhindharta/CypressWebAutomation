@@ -1,0 +1,22 @@
+{
+  "name": "tia_assignment_jonathanhindharta",
+  "version": "1.0.0",
+  "description": "Tech In Asia QA Engineer Assignment By Jonathan Hindharta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta.git"
+  },
+  "author": "Jonathan Hindharta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta/issues"
+  },
+  "homepage": "https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta#readme",
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  }
+}

@@ -24,6 +24,26 @@ class HomePage//function to return xpath of each object in home page
     {
         return cy.get('h3').contains('Latest Jobs').parent().parent('div').children('div').children('div')
     }
+
+    geLoginButton()
+    {
+        return cy.get('a').contains('Log In')
+    }
+
+    geLoginFormTitle()
+    {
+        return cy.get('h2').contains('Log in')
+    }
+
+    geLoginFormEmailField()
+    {
+        return cy.get("input[placeholder='Email Address']")
+    }
+
+    geLoginFormPasswordField()
+    {
+        return cy.get("input[placeholder='Password']")
+    }
 }
 
 export default HomePage;

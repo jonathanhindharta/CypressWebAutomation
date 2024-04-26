@@ -25,24 +25,49 @@ class HomePage//function to return xpath of each object in home page
         return cy.get('h3').contains('Latest Jobs').parent().parent('div').children('div').children('div')
     }
 
-    geLoginButton()
+    getLoginButton()
     {
         return cy.get('a').contains('Log In')
     }
 
-    geLoginFormTitle()
+    getLoginFormTitle()
     {
         return cy.get('h2').contains('Log in')
     }
 
-    geLoginFormEmailField()
+    getLoginFormEmailField()
     {
         return cy.get("input[placeholder='Email Address']")
     }
 
-    geLoginFormPasswordField()
+    getLoginFormPasswordField()
     {
         return cy.get("input[placeholder='Password']")
+    }
+
+    getLoginButton()
+    {
+        return cy.get("button[data-cy='login-btn']")
+    }
+
+    getAccountSpanText()
+    {
+        return cy.get("span[data-cy='profile-menu']").children('p')
+    }
+
+    getAccountSpanParent()
+    {
+        return cy.get("span[data-cy='profile-menu']").parent('span')
+    }
+
+    getAccountSettingMenuButton()
+    {
+        return cy.get('a').contains('Account settings').parent('li')
+    }
+
+    getLoginButton()
+    {
+        return cy.get('a').contains('Sign Up')
     }
 }
 

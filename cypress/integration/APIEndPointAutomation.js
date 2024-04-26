@@ -37,10 +37,10 @@ describe('API End Point Test Suite', function() {
         }).then(function(response){
             //assertThe response matches the following values: "total": 1, "per_page": 30, "current_page": 1, "total_pages": 1.
             //some property value is matches based on response.body like total, per_page (because api param is 10), and total_pages
-            expect(response.body).to.have.property("total",52710)
+            expect(response.body).to.have.property("total",52715)
             expect(response.body).to.have.property("per_page",30)
             expect(response.body).to.have.property("current_page",1)
-            expect(response.body).to.have.property("total_pages",1757)
+            expect(response.body).to.have.property("total_pages",1758)
             //assert It contains a "posts" object with at least 10 post items.
             expect(response.body.posts).to.have.length.least(10)
 

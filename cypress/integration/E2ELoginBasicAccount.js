@@ -10,7 +10,7 @@ describe('Login to Basic Account and Check Account Setting', function() {
     it('Login to Basic Account In Main Menu', function() {
         cy.visit(Cypress.env('url_e2e_automation'))
         cy.wait(Cypress.env('element_load_time_out'))
-        homePage.getLoginButton().click()
+        homePage.getLoginMenu().click()
         cy.wait(Cypress.env('element_load_time_out'))
         //assert some field in login form is appeared
         homePage.getLoginFormTitle().should('be.visible')

@@ -25,7 +25,7 @@ class HomePage//function to return xpath of each object in home page
         return cy.get('h3').contains('Latest Jobs').parent().parent('div').children('div').children('div')
     }
 
-    getLoginButton()
+    getLoginMenu()
     {
         return cy.get('a').contains('Log In')
     }
@@ -65,10 +65,6 @@ class HomePage//function to return xpath of each object in home page
         return cy.get('a').contains('Account settings').parent('li')
     }
 
-    getLoginButton()
-    {
-        return cy.get('a').contains('Sign Up')
-    }
 }
 
 export default HomePage;

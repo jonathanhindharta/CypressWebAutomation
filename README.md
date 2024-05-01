@@ -2,7 +2,7 @@
 Tech In Asia QA Engineer Assignment By Jonathan Hindharta
 
 - For Part 1 E2E Automation, it can be found in file E2EAutomation.js
-- For Part 2 API Endpoint test suite automation, it can be found in file E2EAutomation.js
+- For Part 2 API Endpoint test suite automation, it can be found in file APIEndPointAutomation.js
 - For Bonus Points Write an e2e test case to simulate the following login to your basic account and check your account settings page, it can be found in file E2ELoginBasicAccount.js (notes : user should change tia_email and tia_password data in cypress.config before run the test case)
 Notes : (all assert is made base on response per 26th April 2024)
 * for endpoint https://www.techinasia.com/wp-json/techinasia/3.0/meta/navigational/sidebar/upcoming-events, case assert if the first object "position" value is 0, there is a change where in assignment assert if value is 1, but in response value is 0, and for assert if the second object "position" value is 1, there is a change where in assignment assert if value is 0, but in response value is 1

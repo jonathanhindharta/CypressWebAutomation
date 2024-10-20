@@ -1,21 +1,21 @@
 {
-  "name": "tia_assignment_jonathanhindharta",
+  "name": "cypress_automation_jonathanhindharta",
   "version": "1.0.0",
-  "description": "Tech In Asia QA Engineer Assignment By Jonathan Hindharta",
+  "description": "Cypress Example Web Automation By Jonathan Hindharta",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta.git"
+    "url": "git+https://github.com/jonathanhindharta/CypressWebAutomation.git"
   },
   "author": "Jonathan Hindharta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta/issues"
+    "url": "https://github.com/jonathanhindharta/CypressWebAutomation/issues"
   },
-  "homepage": "https://github.com/jonathanhindharta/tia_assignment_jonathanhindharta#readme",
+  "homepage": "https://github.com/jonathanhindharta/CypressWebAutomation#readme",
   "devDependencies": {
     "cypress": "^10.1.0",
     "mocha": "^5.2.0",

@@ -12,15 +12,15 @@ module.exports = defineConfig({
     url_api_post_10: "https://www.techinasia.com/wp-json/techinasia/2.0/posts?page=1&per_page=10",
     url_api_post_30: "https://www.techinasia.com/wp-json/techinasia/2.0/posts?page=1&per_page=30",
     element_load_time_out: 3000,
-    tia_email: "your_active_tia_email@gmail.com",
-    tia_password: "your_active_tia_password"
+    tia_email: "jonathanmasato@gmail.com",
+    tia_password: "abc123zyz"
   },
 
   retries: {
     runMode: 1,
   },
 
-  projectId: "tiaAsgJonathanHindharta001",
+  projectId: "cypressAutomationJonathanHindharta001",
 
   e2e: {
     /*setupNodeEvents(on, config) {

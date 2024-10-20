@@ -1,5 +1,5 @@
 # Cypress Web Automation
-Cypress Web Automation Assignment By Jonathan Hindharta
+Cypress Example Web Automation By Jonathan Hindharta
 
 - For E2E Automation, it can be found in file E2EAutomation.js
 - For API Endpoint test suite automation, it can be found in file APIEndPointAutomation.js
